@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Interesses</title>
+</head>
+<body>
+
+    <h1>Cadastro de Interesses</h1>
+
+    <p>Nome do aluno: gabriel felipe</p>
+
+    <img src="https://picsum.photos/300/200" alt="Imagem ilustrativa">
+
+    <form action="https://nic.ifrn.edu.br/aulas/atividade_03/" method="post">
+
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </p>
+
+        <fieldset>
+            <legend>Curso</legend>
+
+            <input type="radio" id="informatica" name="curso" value="Informatica">
+            <label for="informatica">Informática</label><br>
+
+            <input type="radio" id="eletromecanica" name="curso" value="eletromecanica">
+            <label for="eletromecanica">eletromecanica</label><br>
+
+            <input type="radio" id="evntos" name="curso" value="evntos">
+            <label for="evntos">evntos</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Quais áreas de tecnologia mais lhe interessam?</legend>
+
+            <input type="checkbox" id="programacao" name="interesses[]" value="Programacao">
+            <label for="programacao">Programação</label><br>
+
+            <input type="checkbox" id="redes" name="interesses[]" value="Redes">
+            <label for="redes">Redes de Computadores</label><br>
+
+            <input type="checkbox" id="ia" name="interesses[]" value="Inteligencia Artificial">
+            <label for="ia">Inteligência Artificial</label><br>
+
+            <input type="checkbox" id="seguranca" name="interesses[]" value="Seguranca da Informacao">
+            <label for="seguranca">Segurança da Informação</label>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>
